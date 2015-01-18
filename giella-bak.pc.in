@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+datadir=@datarootdir@
+gtlang=bak
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-bak
+Description: Finite-state language processing tools for Bashkir
+URL: http://giellatekno.uit.no/doc/index.html
+Version: @VERSION@
