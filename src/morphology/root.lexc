@@ -135,6 +135,7 @@ LEXICON Root
 0   Nouns       ;
 0   Verbs       ;
 0   Adjectives  ;
+0   Adverbs  ;
 0   Pronouns    ;
 0   Numerals    ;
 0   Prefixes    ;
