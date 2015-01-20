@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for UNDEFINED language
+! Divvun & Giellatekno - open source grammars for Bashkir language
 ! Copyright © 2012 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -22,7 +22,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! !!Analysis symbols
 !! ----------------
-!! The morphological analyses of wordforms of UNDEFINED language are presented
+!! The morphological analyses of wordforms of Bashkir language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
@@ -130,7 +130,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in Bashkir language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   Nouns       ;
 0   Verbs       ;
