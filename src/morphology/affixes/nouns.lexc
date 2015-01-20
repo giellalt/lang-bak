@@ -1,15 +1,10 @@
-!! Noun inflection
+!! Nouns
 !! ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! Nouns in BASHKIR language.
 
-LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
-#:0   Nouns   ;
+LEXICON N_
+
++N: # ;
 
 ! vim: set ft=xfst-lexc:
 
