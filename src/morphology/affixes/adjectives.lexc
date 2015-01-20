@@ -1,11 +1,9 @@
-!! Adjective inflection
-!! --------------------
-!! The UNDEFINED language adjectives compare.
+!! Adjectives
+!! ---------------
+!! Adjectives in BASHKIR language.
 
-LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
+LEXICON A_
++A: # ;
 
 ! vim: set ft=xfst-lexc:
 
