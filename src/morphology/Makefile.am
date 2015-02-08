@@ -22,16 +22,10 @@ GT_LEXC_ROOT=root.lexc
 GT_LEXC_SRCS_L1_L2=\
              affixes/adjectives.lexc \
              affixes/adverbs.lexc \
-             affixes/conjunctors.lexc \
-             affixes/dependents.lexc \
-             affixes/ideophs.lexc \
-             affixes/interjections.lexc \
              affixes/nouns.lexc \
              affixes/numerals.lexc \
-             affixes/particles.lexc \
              affixes/postpositions.lexc \
              affixes/pronouns.lexc \
-             affixes/propernouns.lexc \
              affixes/verbs.lexc \
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
@@ -43,7 +37,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/numerals.lexc \
 			 stems/particles.lexc \
 			 stems/postpositions.lexc \
-			 stems/prefixes.lexc \
 			 stems/pronouns.lexc \
 			 stems/verbs.lexc \
 	 		 clitics.lexc 
