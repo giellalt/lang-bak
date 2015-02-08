@@ -1,9 +1,8 @@
 !! Verbs
-!! ---------------
+!! -----
 !! Verbs in BASHKIR language.
 
 LEXICON V_
-
 +V: # ;
 
 ! vim: set ft=xfst-lexc:
