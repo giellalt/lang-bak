@@ -3,61 +3,70 @@
 !! Nouns in BASHKIR language.
 
 LEXICON N_
-+N: # ;
++N: px ;
 
 LEXICON N_ЮСК
-+N+Nom: # ;
-+N+Pl:%>ылар # ;
-+N+Gen:%>ының # ;
-+N+Dat:%>ыға # ;
-+N+Acc:%>ыны # ;
-+N+Ela:%>ынан # ;
-+N+Loc:%>ыла # ;
++N+Nom: px ;
++N+Pl:%>ылар px ;
++N+Gen:%>ының px ;
++N+Dat:%>ыға px ;
++N+Acc:%>ыны px ;
++N+Ela:%>ынан px ;
++N+Loc:%>ыла px ;
 
 LEXICON N_АЙП
-+N+Nom: # ;
-+N+Pl:%>тар # ;
-+N+Gen:%>тың # ;
-+N+Dat:%>ҡа # ;
-+N+Acc:%>ты # ;
-+N+Ela:%>тан # ;
-+N+Loc:%>та # ;
++N+Nom: px ;
++N+Pl:%>тар px ;
++N+Gen:%>тың px ;
++N+Dat:%>ҡа px ;
++N+Acc:%>ты px ;
++N+Ela:%>тан px ;
++N+Loc:%>та px ;
 
 LEXICON N_ӘНК
-+N+Nom: # ;
-+N+Pl:%>тәр # ;
-+N+Gen:%>тең # ;
-+N+Dat:%>кә # ;
-+N+Acc:%>те # ;
-+N+Ela:%>тән # ;
-+N+Loc:%>тә # ;
++N+Nom: px ;
++N+Pl:%>тәр px ;
++N+Gen:%>тең px ;
++N+Dat:%>кә px ;
++N+Acc:%>те px ;
++N+Ela:%>тән px ;
++N+Loc:%>тә px ;
 
 LEXICON N_ОК
-+N+Nom: # ;
-+N+Pl:%>тар # ;
-+N+Gen:%>тоң # ;
-+N+Dat:%>ҡа # ;
-+N+Acc:%>то # ;
-+N+Ela:%>тан # ;
-+N+Loc:%>та # ;
++N+Nom: px ;
++N+Pl:%>тар px ;
++N+Gen:%>тоң px ;
++N+Dat:%>ҡа px ;
++N+Acc:%>то px ;
++N+Ela:%>тан px ;
++N+Loc:%>та px ;
 
 LEXICON N_АЛ
-+N+Nom: # ;
-+N+Pl:%>дар # ;
-+N+Gen:%>дың # ;
-+N+Dat:%>ға # ;
-+N+Acc:%>ды # ;
-+N+Ela:%>дан # ;
-+N+Loc:%>да # ;
++N+Nom: px ;
++N+Pl:%>дар px ;
++N+Gen:%>дың px ;
++N+Dat:%>ға px ;
++N+Acc:%>ды px ;
++N+Ela:%>дан px ;
++N+Loc:%>да px ;
 
 LEXICON N_ИП
-+N+Nom: # ;
-+N+Pl:%>тар # ;
-+N+Gen:%>тың # ;
-+N+Dat:%>ҡа # ;
-+N+Acc:%>ты # ;
-+N+Ela:%>тан # ;
-+N+Loc:%>та # ;
++N+Nom: px ;
++N+Pl:%>тар px ;
++N+Gen:%>тың px ;
++N+Dat:%>ҡа px ;
++N+Acc:%>ты px ;
++N+Ela:%>тан px ;
++N+Loc:%>та px ;
 
 ! vim: set ft=xfst-lexc:
+
+LEXICON px
+ # ; ! without px
++Px1Sg:%>ым # ;
++Px2Sg:%>ың # ;
++Px3Sg:%>ы # ;
++Px1Pl:%>ыбыҙ # ;
++Px2Pl:%>ығыҙ # ;
++Px3Pl:%>ы # ;
 
