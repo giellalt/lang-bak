@@ -138,10 +138,10 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 0   Adjectives       ;
 0   Adverbs       ;
-0   Conjunctors       ;
-0   Dependents       ;
-0   Ideophs       ;
-0   Interjections       ;
+!0   Conjunctors       ;
+!0   Dependents       ;
+!0   Ideophs       ;
+!0   Interjections       ;
 0   Nouns       ;
 0   Numerals       ;
 0   Postpositions       ;
