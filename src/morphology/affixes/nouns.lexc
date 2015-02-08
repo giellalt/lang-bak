@@ -3,8 +3,61 @@
 !! Nouns in BASHKIR language.
 
 LEXICON N_
-
 +N: # ;
+
+LEXICON N_ЮСК
++N+Nom: # ;
++N+Pl:%>ылар # ;
++N+Gen:%>ының # ;
++N+Dat:%>ыға # ;
++N+Acc:%>ыны # ;
++N+Ela:%>ынан # ;
++N+Loc:%>ыла # ;
+
+LEXICON N_АЙП
++N+Nom: # ;
++N+Pl:%>тар # ;
++N+Gen:%>тың # ;
++N+Dat:%>ҡа # ;
++N+Acc:%>ты # ;
++N+Ela:%>тан # ;
++N+Loc:%>та # ;
+
+LEXICON N_ӘНК
++N+Nom: # ;
++N+Pl:%>тәр # ;
++N+Gen:%>тең # ;
++N+Dat:%>кә # ;
++N+Acc:%>те # ;
++N+Ela:%>тән # ;
++N+Loc:%>тә # ;
+
+LEXICON N_ОК
++N+Nom: # ;
++N+Pl:%>тар # ;
++N+Gen:%>тоң # ;
++N+Dat:%>ҡа # ;
++N+Acc:%>то # ;
++N+Ela:%>тан # ;
++N+Loc:%>та # ;
+
+LEXICON N_АЛ
++N+Nom: # ;
++N+Pl:%>дар # ;
++N+Gen:%>дың # ;
++N+Dat:%>ға # ;
++N+Acc:%>ды # ;
++N+Ela:%>дан # ;
++N+Loc:%>да # ;
+
+LEXICON N_ИП
++N+Nom: # ;
++N+Pl:%>тар # ;
++N+Gen:%>тың # ;
++N+Dat:%>ҡа # ;
++N+Acc:%>ты # ;
++N+Ela:%>тан # ;
++N+Loc:%>та # ;
 
 ! vim: set ft=xfst-lexc:
 
