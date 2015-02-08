@@ -20,26 +20,20 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-             affixes/adjectives.lexc \
-             affixes/adverbs.lexc \
-             affixes/nouns.lexc \
-             affixes/numerals.lexc \
-             affixes/postpositions.lexc \
-             affixes/pronouns.lexc \
-             affixes/verbs.lexc \
+			 affixes/adjectives.lexc \
+			 affixes/adverbs.lexc \
+			 affixes/nouns.lexc \
+			 affixes/pronouns.lexc \
+			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
 			 stems/conjunctors.lexc \
-			 stems/dependents.lexc \
-			 stems/ideophs.lexc \
-			 stems/interjections.lexc \
 			 stems/nouns.lexc \
 			 stems/numerals.lexc \
-			 stems/particles.lexc \
-			 stems/postpositions.lexc \
 			 stems/pronouns.lexc \
+			 stems/postpositions.lexc \
 			 stems/verbs.lexc \
-	 		 clitics.lexc
+	 		 clitics.lexc 
 
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
