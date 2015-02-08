@@ -1,0 +1,33 @@
+!! Adverbs
+!! ---------------
+!! Adverbs in BASHKIR language.
+
+LEXICON ADV_
++Adv: # ;
+
+LEXICON ADV_А 
++Adv: # ;
++Adv+Cmp:%>раҡ # ;
+
+LEXICON ADV_ӘД
++Adv: # ;
++Adv+Cmp:%>ерәк # ;
+
+LEXICON ADV_АҘ
++Adv: # ;
++Adv+Cmp:%>ыраҡ # ;
+
+LEXICON ADV_ӨҘ
++Adv: # ;
++Adv+Cmp:%>өрәк # ;
+
+LEXICON ADV_Е
++Adv: # ;
++Adv+Cmp:%>рәк # ;
+
+LEXICON ADV_ОҠ
++Adv: # ;
++Adv+Cmp:%>ораҡ # ;
+
+! vim: set ft=xfst-lexc:
+
