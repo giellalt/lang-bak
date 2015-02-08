@@ -142,6 +142,5 @@ LEXICON Root
 0   Adverbs  ;
 0   Pronouns    ;
 0   Numerals    ;
-0   Prefixes    ;
 
 ! vim: set ft=xfst-lexc:
