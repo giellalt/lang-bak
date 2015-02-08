@@ -2,6 +2,9 @@
 !! -----
 !! Conjunctors in BASHKIR language.
 
+LEXICON CC_
++CC: # ;
+
 LEXICON Conjunctors
 
 шуға CC_ ;
