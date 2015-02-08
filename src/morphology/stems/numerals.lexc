@@ -2,9 +2,6 @@
 !! --------
 !! Numerals in BASHKIR language.
 
-LEXICON Num_
-+Num: # ;
-
 LEXICON Numerals
 
 миллиондарса Num_ ;
