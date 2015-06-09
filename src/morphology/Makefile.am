@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-## Copyright (C) 2011 Samediggi
+## Copyright (C) 2015 UiT/Samediggi
 
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -32,6 +32,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/numerals.lexc \
 			 stems/pronouns.lexc \
 			 stems/postpositions.lexc \
+			 stems/punctuation.lexc   \
 			 stems/verbs.lexc \
 	 		 clitics.lexc 
 
