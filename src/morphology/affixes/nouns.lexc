@@ -3,169 +3,169 @@
 !! Nouns in BASHKIR language.
 
 LEXICON N_
-+N: px ;
+ +N: px ;
 
 LEXICON N_Е
-+N+Nom: px ;
-+N+Pl:%>ләр px ;
-+N+Gen:%>нең px ;
-+N+Dat:%>ғә px ;
-+N+Acc:%>не px ;
-+N+Ela:%>нән px ;
-+N+Loc:%>лә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>ләр px ;
+ +N+Gen:%>нең px ;
+ +N+Dat:%>ғә  px ;
+ +N+Acc:%>не  px ;
+ +N+Ela:%>нән px ;
+ +N+Loc:%>лә  px ;
 
 LEXICON N_А
-+N+Nom: px ;
-+N+Pl:%>лар px ;
-+N+Gen:%>ның px ;
-+N+Dat:%>ға px ;
-+N+Acc:%>ны px ;
-+N+Ela:%>нан px ;
-+N+Loc:%>ла px ;
+ +N+Nom:      px ;
+  +N+Pl:%>лар px ;
+ +N+Gen:%>ның px ;
+ +N+Dat:%>ға  px ;
+ +N+Acc:%>ны  px ;
+ +N+Ela:%>нан px ;
+ +N+Loc:%>ла  px ;
 
 LEXICON N_Ө
-+N+Nom: px ;
-+N+Pl:%>ләр px ;
-+N+Gen:%>нөң px ;
-+N+Dat:%>ғә px ;
-+N+Acc:%>нө px ;
-+N+Ela:%>нән px ;
-+N+Loc:%>лә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>ләр px ;
+ +N+Gen:%>нөң px ;
+ +N+Dat:%>ғә  px ;
+ +N+Acc:%>нө  px ;
+ +N+Ela:%>нән px ;
+ +N+Loc:%>лә  px ;
 
 LEXICON N_О
-+N+Nom: px ;
-+N+Pl:%>лар px ;
-+N+Gen:%>ноң px ;
-+N+Dat:%>ға px ;
-+N+Acc:%>но px ;
-+N+Ela:%>нан px ;
-+N+Loc:%>ла px ;
+ +N+Nom:      px ;
+  +N+Pl:%>лар px ;
+ +N+Gen:%>ноң px ;
+ +N+Dat:%>ға  px ;
+ +N+Acc:%>но  px ;
+ +N+Ela:%>нан px ;
+ +N+Loc:%>ла  px ;
 
 LEXICON N_ЮСК
-+N+Nom: px ;
-+N+Pl:%>ылар px ;
-+N+Gen:%>ының px ;
-+N+Dat:%>ыға px ;
-+N+Acc:%>ыны px ;
-+N+Ela:%>ынан px ;
-+N+Loc:%>ыла px ;
+ +N+Nom:       px ;
+  +N+Pl:%>ылар px ;
+ +N+Gen:%>ының px ;
+ +N+Dat:%>ыға  px ;
+ +N+Acc:%>ыны  px ;
+ +N+Ela:%>ынан px ;
+ +N+Loc:%>ыла  px ;
 
 LEXICON N_ЕЖ
-+N+Nom: px ;
-+N+Pl:%>дәр px ;
-+N+Gen:%>дәң px ;
-+N+Dat:%>ғә px ;
-+N+Acc:%>де px ;
-+N+Ela:%>дән px ;
-+N+Loc:%>дә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>дәр px ;
+ +N+Gen:%>дәң px ;
+ +N+Dat:%>ғә  px ;
+ +N+Acc:%>де  px ;
+ +N+Ela:%>дән px ;
+ +N+Loc:%>дә  px ;
 
 LEXICON N_АЛ
-+N+Nom: px ;
-+N+Pl:%>дар px ;
-+N+Gen:%>дың px ;
-+N+Dat:%>ға px ;
-+N+Acc:%>ды px ;
-+N+Ela:%>дан px ;
-+N+Loc:%>да px ;
+ +N+Nom:      px ;
+  +N+Pl:%>дар px ;
+ +N+Gen:%>дың px ;
+ +N+Dat:%>ға  px ;
+ +N+Acc:%>ды  px ;
+ +N+Ela:%>дан px ;
+ +N+Loc:%>да  px ;
 
 LEXICON N_ӨЖ
-+N+Nom: px ;
-+N+Pl:%>дәр px ;
-+N+Gen:%>дөң px ;
-+N+Dat:%>ғә px ;
-+N+Acc:%>дө px ;
-+N+Ela:%>дән px ;
-+N+Loc:%>дә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>дәр px ;
+ +N+Gen:%>дөң px ;
+ +N+Dat:%>ғә  px ;
+ +N+Acc:%>дө  px ;
+ +N+Ela:%>дән px ;
+ +N+Loc:%>дә  px ;
 
 LEXICON N_ОЖ
-+N+Nom: px ;
-+N+Pl:%>дар px ;
-+N+Gen:%>доң px ;
-+N+Dat:%>ға px ;
-+N+Acc:%>до px ;
-+N+Ela:%>дан px ;
-+N+Loc:%>да px ;
+ +N+Nom:      px ;
+  +N+Pl:%>дар px ;
+ +N+Gen:%>доң px ;
+ +N+Dat:%>ға  px ;
+ +N+Acc:%>до  px ;
+ +N+Ela:%>дан px ;
+ +N+Loc:%>да  px ;
 
 LEXICON N_ЕҘ
-+N+Nom: px ;
-+N+Pl:%>ҙәр px ;
-+N+Gen:%>ҙең px ;
-+N+Dat:%>гә px ;
-+N+Acc:%>ҙе px ;
-+N+Ela:%>ҙән px ;
-+N+Loc:%>ҙә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>ҙәр px ;
+ +N+Gen:%>ҙең px ;
+ +N+Dat:%>гә  px ;
+ +N+Acc:%>ҙе  px ;
+ +N+Ela:%>ҙән px ;
+ +N+Loc:%>ҙә  px ;
 
 LEXICON N_АҘ
-+N+Nom: px ;
-+N+Pl:%>ҙар px ;
-+N+Gen:%>ҙың px ;
-+N+Dat:%>ға px ;
-+N+Acc:%>ҙы px ;
-+N+Ela:%>ҙан px ;
-+N+Loc:%>ҙа px ;
+ +N+Nom:      px ;
+  +N+Pl:%>ҙар px ;
+ +N+Gen:%>ҙың px ;
+ +N+Dat:%>ға  px ;
+ +N+Acc:%>ҙы  px ;
+ +N+Ela:%>ҙан px ;
+ +N+Loc:%>ҙа  px ;
 
 LEXICON N_ОҘ
-+N+Nom: px ;
-+N+Pl:%>ҙар px ;
-+N+Gen:%>ҙоң px ;
-+N+Dat:%>га px ;
-+N+Acc:%>ҙо px ;
-+N+Ela:%>ҙан px ;
-+N+Loc:%>ҙа px ;
+ +N+Nom:      px ;
+  +N+Pl:%>ҙар px ;
+ +N+Gen:%>ҙоң px ;
+ +N+Dat:%>га  px ;
+ +N+Acc:%>ҙо  px ;
+ +N+Ela:%>ҙан px ;
+ +N+Loc:%>ҙа  px ;
 
 LEXICON N_ӨҘ
-+N+Nom: px ;
-+N+Pl:%>ҙәр px ;
-+N+Gen:%>ҙөң px ;
-+N+Dat:%>гә px ;
-+N+Acc:%>ҙө px ;
-+N+Ela:%>ҙән px ;
-+N+Loc:%>ҙә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>ҙәр px ;
+ +N+Gen:%>ҙөң px ;
+ +N+Dat:%>гә  px ;
+ +N+Acc:%>ҙө  px ;
+ +N+Ela:%>ҙән px ;
+ +N+Loc:%>ҙә  px ;
 
 LEXICON N_ЕС
-+N+Nom: px ;
-+N+Pl:%>тәр px ;
-+N+Gen:%>тең px ;
-+N+Dat:%>кә px ;
-+N+Acc:%>те px ;
-+N+Ela:%>тән px ;
-+N+Loc:%>тә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>тәр px ;
+ +N+Gen:%>тең px ;
+ +N+Dat:%>кә  px ;
+ +N+Acc:%>те  px ;
+ +N+Ela:%>тән px ;
+ +N+Loc:%>тә  px ;
 
 LEXICON N_ИП
-+N+Nom: px ;
-+N+Pl:%>тар px ;
-+N+Gen:%>тың px ;
-+N+Dat:%>ҡа px ;
-+N+Acc:%>ты px ;
-+N+Ela:%>тан px ;
-+N+Loc:%>та px ;
+ +N+Nom:      px ;
+  +N+Pl:%>тар px ;
+ +N+Gen:%>тың px ;
+ +N+Dat:%>ҡа  px ;
+ +N+Acc:%>ты  px ;
+ +N+Ela:%>тан px ;
+ +N+Loc:%>та  px ;
 
 LEXICON N_ӨБ
-+N+Nom: px ;
-+N+Pl:%>тәр px ;
-+N+Gen:%>төң px ;
-+N+Dat:%>кә px ;
-+N+Acc:%>тө px ;
-+N+Ela:%>тән px ;
-+N+Loc:%>тә px ;
+ +N+Nom:      px ;
+  +N+Pl:%>тәр px ;
+ +N+Gen:%>төң px ;
+ +N+Dat:%>кә  px ;
+ +N+Acc:%>тө  px ;
+ +N+Ela:%>тән px ;
+ +N+Loc:%>тә  px ;
 
 LEXICON N_ОК
-+N+Nom: px ;
-+N+Pl:%>тар px ;
-+N+Gen:%>тоң px ;
-+N+Dat:%>ҡа px ;
-+N+Acc:%>то px ;
-+N+Ela:%>тан px ;
-+N+Loc:%>та px ;
+ +N+Nom:      px ;
+  +N+Pl:%>тар px ;
+ +N+Gen:%>тоң px ;
+ +N+Dat:%>ҡа  px ;
+ +N+Acc:%>то  px ;
+ +N+Ela:%>тан px ;
+ +N+Loc:%>та  px ;
 
 ! vim: set ft=xfst-lexc:
 
 LEXICON px
- # ; ! without px
-+Px1Sg:%>ым # ;
-+Px2Sg:%>ың # ;
-+Px3Sg:%>ы # ;
-+Px1Pl:%>ыбыҙ # ;
-+Px2Pl:%>ығыҙ # ;
-+Px3Pl:%>ы # ;
+               # ; ! without px
+ +Px1Sg:%>ым   # ;
+ +Px2Sg:%>ың   # ;
+ +Px3Sg:%>ы    # ;
+ +Px1Pl:%>ыбыҙ # ;
+ +Px2Pl:%>ығыҙ # ;
+ +Px3Pl:%>ы    # ;
 
