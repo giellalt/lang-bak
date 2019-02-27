@@ -147,5 +147,7 @@ LEXICON Root
 0   Postpositions       ;
 0   Pronouns       ;
 0   Verbs       ;
+    Punctuation ;
+    Symbols     ;
 
 ! vim: set ft=xfst-lexc:
