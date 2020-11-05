@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/bakdoc/index.html>
+-   <https://giellalt.uit.no/lang/bak/BashkirDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
