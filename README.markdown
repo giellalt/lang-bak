@@ -1,6 +1,10 @@
 The Bashkir morphology and tools
 ==========================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
+[![Build Status](https://github.com/giellalt/lang-bak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bak/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://raw.githubusercontent.com/giellalt/lang-bak/develop/LICENSE)
+
 This repository contains finite state source files for the Bashkir language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
@@ -8,10 +12,6 @@ licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-bak/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
-[![Build Status](https://github.com/giellalt/lang-bak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bak/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://raw.githubusercontent.com/giellalt/lang-bak/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-bak)
 for the Bashkir language by using the [Divvun Installer](http://divvun.no)
