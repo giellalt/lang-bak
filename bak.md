@@ -1,3 +1,93 @@
+Nouns
+Nouns in BASHKIR language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pronoun affixes
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adverbs
+Adverbs in BASHKIR language.
+
+
+
+
+
+
+
+
+
+Adjectives
+Adjectives in BASHKIR language.
+
+
+
+Verbs
+Verbs in BASHKIR language.
+
+
+
+=================================== !
+The Bashkir morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+
+
+
+*нитәк%>ерәк examples:*
+
+*нитәг0ерәк examples:*
+
+
+
+
+
+
+
+
+
+
+
+*грипп%>ым examples:*
+
+*гриб00ым examples:*
+
+
 
 # Bashkir morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Bashkir LANGUAGE.
@@ -77,6 +167,98 @@ given the proper use of these flags.
 
 The word forms in Bashkir language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+Nouns
+Nouns in BASHKIR language.
+
+
+
+Pronouns
+Pronouns in BASHKIR language.
+
+
+
+Conjunctors
+Conjunctors in BASHKIR language.
+
+
+
+
+Adverbs 
+Adverbs in BASHKIR language.
+
+
+
+Adjectives
+Adjectives in BASHKIR language.
+
+
+
+Verbs
+Verbs in BASHKIR language.
+
+
+
+Numerals
+Numerals in BASHKIR language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
