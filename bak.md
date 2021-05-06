@@ -3,44 +3,25 @@ Nouns in BASHKIR language.
 
 
 
+Numerals
+Numerals in BASHKIR language.
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Pronoun affixes
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Adverbs
+Adverbs 
 Adverbs in BASHKIR language.
 
 
 
+Verbs
+Verbs in BASHKIR language.
 
 
+
+Conjunctors
+Conjunctors in BASHKIR language.
 
 
 
@@ -50,8 +31,8 @@ Adjectives in BASHKIR language.
 
 
 
-Verbs
-Verbs in BASHKIR language.
+Pronouns
+Pronouns in BASHKIR language.
 
 
 
@@ -86,6 +67,63 @@ The Bashkir morphophonological/twolc rules file !
 *грипп%>ым examples:*
 
 *гриб00ым examples:*
+
+
+
+# Symbol affixes
+
+
+
+
+
+Nouns
+Nouns in BASHKIR language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adverbs
+Adverbs in BASHKIR language.
+
+
+
+
+
+
+
+
+
+Verbs
+Verbs in BASHKIR language.
+
+
+
+Adjectives
+Adjectives in BASHKIR language.
+
+
+
+
+Pronoun affixes
+
+
 
 
 
@@ -168,42 +206,20 @@ given the proper use of these flags.
 The word forms in Bashkir language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
-Nouns
-Nouns in BASHKIR language.
 
 
 
-Pronouns
-Pronouns in BASHKIR language.
+We describe here how abbreviations are in Bashkir are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-Conjunctors
-Conjunctors in BASHKIR language.
-
-
-
-
-Adverbs 
-Adverbs in BASHKIR language.
-
-
-
-Adjectives
-Adjectives in BASHKIR language.
-
-
-
-Verbs
-Verbs in BASHKIR language.
-
-
-
-Numerals
-Numerals in BASHKIR language.
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -259,20 +275,4 @@ Numerals in BASHKIR language.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Bashkir are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
