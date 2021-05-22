@@ -1,18 +1,27 @@
-!! Numerals
+!! # Numerals
 !  --------
-!! Numerals in BASHKIR language.
+!! This file docmuents the treatment of Numerals in BASHKIR.
+!! The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fst/stems/numerals.lexc)
 
-LEXICON Num_
+
+LEXICON Numerals !!≈ @CODE@ directs to arabic_roman_digits.lexc, except numerallist, which points to Bashkir numerals
+             ARABICS           ; ! for the arabic numerals        !
+             ARABIC           ; ! for the arabic numerals        !
+             ROMAN            ; ! for the roman numerals         !
+             NUM-PREFIXES     ; ! for §34 etc.                   !
+             ISOLATED-NUMEXP  ; ! for ½ etc.                     !
+numerallist ;
+
+LEXICON Num_  !!≈ @CODE@ adds the tag **+Num**. With more content we move this to affixes.
 +Num: # ;
 
 
-LEXICON Numerals
-
-миллиондарса Num_ ;
-ундарса Num_ ;
-биллиард Num_ ;
-миллиард Num_ ;
-һигеҙ Num_ ;
+LEXICON numerallist  !!≈ @CODE@ is the list of numerals.
+миллиондарса Num_ ; !!≈ @CODE@ 
+ундарса Num_ ; !!≈ * @CODE@ 
+биллиард Num_ ; !!≈ * @CODE@ 
+миллиард Num_ ; !!≈ * @CODE@ 
+һигеҙ Num_ ; !! etc.
 ете-һигеҙ:ете-#һигеҙ Num_ ;
 йөҙ Num_ ;
 йөҙ-йөҙ:йөҙ-#йөҙ Num_ ;
