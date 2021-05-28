@@ -6,15 +6,10 @@
 
 LEXICON Numerals !!≈ @CODE@ directs to arabic_roman_digits.lexc, except numerallist, which points to Bashkir numerals
              ARABICS           ; ! for the arabic numerals        !
-             ARABIC           ; ! for the arabic numerals        !
              ROMAN            ; ! for the roman numerals         !
              NUM-PREFIXES     ; ! for §34 etc.                   !
              ISOLATED-NUMEXP  ; ! for ½ etc.                     !
 numerallist ;
-
-LEXICON Num_  !!≈ @CODE@ adds the tag **+Num**. With more content we move this to affixes.
-+Num: # ;
-
 
 LEXICON numerallist  !!≈ @CODE@ is the list of numerals.
 миллиондарса Num_ ; !!≈ @CODE@ 
