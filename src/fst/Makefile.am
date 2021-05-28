@@ -28,6 +28,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/adjectives.lexc \
 			 affixes/adverbs.lexc \
 			 affixes/nouns.lexc \
+			 affixes/numerals.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc \
@@ -60,6 +61,7 @@ GT_LEXC_L2_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=generated_files/punctuation.lexc \
 		    generated_files/arabic_roman_digits.lexc \
+		    generated_files/smi-digits.lexc \
                     generated_files/symbols.lexc
 
 # Set this to the names of all source xml files, if any
