@@ -1,6 +1,7 @@
 * [functions-cg3-src.md](functions-cg3-src.md)
 * [verbs-affixes-fst-src.md](verbs-affixes-fst-src.md)
 * [pronouns-affixes-fst-src.md](pronouns-affixes-fst-src.md)
+* [numerals-affixes-fst-src.md](numerals-affixes-fst-src.md)
 * [adjectives-affixes-fst-src.md](adjectives-affixes-fst-src.md)
 * [adverbs-affixes-fst-src.md](adverbs-affixes-fst-src.md)
 * [nouns-affixes-fst-src.md](nouns-affixes-fst-src.md)
