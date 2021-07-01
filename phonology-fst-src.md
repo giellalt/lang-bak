@@ -52,3 +52,5 @@ Rule: **Переход Гласен 2**
 *гриб00ым examples:*
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>
