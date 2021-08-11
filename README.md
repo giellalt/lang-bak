@@ -3,7 +3,7 @@ The Bashkir morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
 [![Build Status](https://github.com/giellalt/lang-bak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bak/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://raw.githubusercontent.com/giellalt/lang-bak/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/blob/main/LICENSE)
 
 This repository contains finite state source files for the Bashkir language,
 for building morphological analysers, proofing tools
