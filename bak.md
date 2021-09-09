@@ -606,59 +606,167 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bak/blob/main/../src/cg3/functions.cg3)</small>Adverbs 
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bak/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+# The Bashkir morphophonological/twolc rules file 
+=================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bak/blob/main/src/fst/phonology.twolc) 
+
+## Alphabets and sets
+
+ * **а б в г ғ д ҙ е ё ж з и й к ҡ л м н ң о ө п р с ҫ т у ү ф х һ ц ч ш щ ъ ы ь э ә ю я** 
+ * **А Б В Г Ғ Д Ҙ Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Ҫ Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ә Ю Я** 
+ * **%>:0 ;** 
+
+
+ * **Vow = а е ё и о ө у ү ы э ә ю я** 
+  **А Е Ё И О Ө У Ү Ы Э Ә Ю Я ;** 
+ * **Cns = б в г ғ д ҙ ж з й к ҡ л м н ң п р с ҫ т ф х һ ц ч ш щ** 
+  **Б В Г Ғ Д Ҙ Ж З Й К Ҡ Л М Н Ң П Р С Ҫ Т Ф Х Һ Ц Ч Ш Щ ;** 
+ * **Ltrs = Vow Cns ъ ь Ъ Ь ;** 
+ * **all = Ltrs %- ;** 
+
+
+## Rules 
+
+
+Rule: **Переход к:г, если аффикс начинается на гласную и перед к тоже гласная**
+
+
+*нитәк%>ерәк examples:*
+
+*нитәг0ерәк examples:*
+
+Переход конечной согласной "к" в "г" при присоединении аффикса, начинающегося на гласную (итек: итеге, итегең, итектәр, итектә ...). Если предыдущий звук согласный, то изменений нет (бөрк, бөркә, бөркәм, бәркән). !
+
+Rule: **Переход ҡ:ғ, если аффикс начинается на гласную и перед к тоже гласная**
+
+Переход конечной согласной "ҡ" в "ғ" при присоединении аффикса, начинающегося на гласную (таяҡ: таяғы, таяғың, таяҡтар, таяҡтың ...). Если предыдущий звук согласный, то изменений нет (ҡырҡ, ҡырҡы, ҡырҡам, ҡырҡа). !
+
+Rule: **Переход п:б, если аффикс начинается на гласную и перед к тоже гласная**
+
+Переход конечной согласной "п" в "б" при присоединении аффикса, начинающегося на гласную (китап: китабы, китабым, китаптар, китаптың ...). !
+
+Rule: **Переход Согласен**
+
+
+Rule: **Переход Гласен 1**
+
+Rule: **Переход Гласен 2**
+
+
+*грипп%>ым examples:*
+
+*гриб00ым examples:*
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>Adverbs
 Adverbs in BASHKIR language.
 
 
 
+
+
+
+
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adverbs.lexc)</small>Verbs
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adverbs.lexc)</small>Nouns
+Nouns in BASHKIR language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/nouns.lexc)</small>Verbs
 Verbs in BASHKIR language.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/verbs.lexc)</small># Numerals
-This file docmuents the treatment of Numerals in BASHKIR.
-The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fst/stems/numerals.lexc)
-
-
- LEXICON Numerals directs to arabic_roman_digits.lexc, except numerallist, which points to Bashkir numerals
-
- LEXICON numerallist is the list of numerals.
- миллиондарса Num_ ; 
- * ундарса Num_ ; 
- * биллиард Num_ ; 
- * миллиард Num_ ; 
-etc.
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/numerals.lexc)</small>Conjunctors
-Conjunctors in BASHKIR language.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/conjunctors.lexc)</small>Pronouns
-Pronouns in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/pronouns.lexc)</small>Adjectives
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjectives
 Adjectives in BASHKIR language.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adjectives.lexc)</small>Nouns
-Nouns in BASHKIR language.
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+
+# Bashkir number affixes
+
+
+
+ LEXICON Num_ adds the tag **+Num**. With more content we move this to affixes.
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON ARABICCASES**  adds +Arab
+
+ * **LEXICON ARABICCASE**  adds +Arab
+
+ * **LEXICON ARABICCASE0**  adds +Arab
+
+
+ * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
+
+ * **LEXICON DIGITCASE0**
+
+
+
+
+
+
+
+
+
+
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/numerals.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/symbols.lexc)</small>
+Pronoun affixes
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/pronouns.lexc)</small>
 # Bashkir morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Bashkir LANGUAGE.
 
@@ -740,167 +848,59 @@ The word forms in Bashkir language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/root.lexc)</small>=================================== !
-# The Bashkir morphophonological/twolc rules file 
-=================================== !
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bak/blob/main/src/fst/phonology.twolc) 
-
-## Alphabets and sets
-
- * **а б в г ғ д ҙ е ё ж з и й к ҡ л м н ң о ө п р с ҫ т у ү ф х һ ц ч ш щ ъ ы ь э ә ю я** 
- * **А Б В Г Ғ Д Ҙ Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Ҫ Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ә Ю Я** 
- * **%>:0 ;** 
-
-
- * **Vow = а е ё и о ө у ү ы э ә ю я** 
-  **А Е Ё И О Ө У Ү Ы Э Ә Ю Я ;** 
- * **Cns = б в г ғ д ҙ ж з й к ҡ л м н ң п р с ҫ т ф х һ ц ч ш щ** 
-  **Б В Г Ғ Д Ҙ Ж З Й К Ҡ Л М Н Ң П Р С Ҫ Т Ф Х Һ Ц Ч Ш Щ ;** 
- * **Ltrs = Vow Cns ъ ь Ъ Ь ;** 
- * **all = Ltrs %- ;** 
-
-
-## Rules 
-
-
-Rule: **Переход к:г, если аффикс начинается на гласную и перед к тоже гласная**
-
-
-*нитәк%>ерәк examples:*
-
-*нитәг0ерәк examples:*
-
-Переход конечной согласной "к" в "г" при присоединении аффикса, начинающегося на гласную (итек: итеге, итегең, итектәр, итектә ...). Если предыдущий звук согласный, то изменений нет (бөрк, бөркә, бөркәм, бәркән). !
-
-Rule: **Переход ҡ:ғ, если аффикс начинается на гласную и перед к тоже гласная**
-
-Переход конечной согласной "ҡ" в "ғ" при присоединении аффикса, начинающегося на гласную (таяҡ: таяғы, таяғың, таяҡтар, таяҡтың ...). Если предыдущий звук согласный, то изменений нет (ҡырҡ, ҡырҡы, ҡырҡам, ҡырҡа). !
-
-Rule: **Переход п:б, если аффикс начинается на гласную и перед к тоже гласная**
-
-Переход конечной согласной "п" в "б" при присоединении аффикса, начинающегося на гласную (китап: китабы, китабым, китаптар, китаптың ...). !
-
-Rule: **Переход Согласен**
-
-
-Rule: **Переход Гласен 1**
-
-Rule: **Переход Гласен 2**
-
-
-*грипп%>ым examples:*
-
-*гриб00ым examples:*
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>Adverbs
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/root.lexc)</small>Adverbs 
 Adverbs in BASHKIR language.
 
 
 
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adverbs.lexc)</small>Nouns
+Nouns in BASHKIR language.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adverbs.lexc)</small>Verbs
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/nouns.lexc)</small>Verbs
 Verbs in BASHKIR language.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/symbols.lexc)</small>
-
-# Bashkir number affixes
-
-
-
- LEXICON Num_ adds the tag **+Num**. With more content we move this to affixes.
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON ARABICCASES**  adds +Arab
-
- * **LEXICON ARABICCASE**  adds +Arab
-
- * **LEXICON ARABICCASE0**  adds +Arab
-
-
- * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
-
- * **LEXICON DIGITCASE0**
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/numerals.lexc)</small>
-Pronoun affixes
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/pronouns.lexc)</small>Adjectives
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
 Adjectives in BASHKIR language.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adjectives.lexc)</small>Nouns
-Nouns in BASHKIR language.
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adjectives.lexc)</small># Numerals
+This file docmuents the treatment of Numerals in BASHKIR.
+The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fst/stems/numerals.lexc)
 
 
+ LEXICON Numerals directs to arabic_roman_digits.lexc, except numerallist, which points to Bashkir numerals
 
+ LEXICON numerallist is the list of numerals.
+ миллиондарса Num_ ; 
+ * ундарса Num_ ; 
+ * биллиард Num_ ; 
+ * миллиард Num_ ; 
+etc.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/numerals.lexc)</small>Conjunctors
+Conjunctors in BASHKIR language.
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/conjunctors.lexc)</small>Pronouns
+Pronouns in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/pronouns.lexc)</small>
 
 
 
