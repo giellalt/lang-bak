@@ -661,112 +661,13 @@ Rule: **Переход Гласен 2**
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>Adverbs
-Adverbs in BASHKIR language.
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adverbs.lexc)</small>
-Pronoun affixes
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/pronouns.lexc)</small>
-
-# Bashkir number affixes
-
-
-
- LEXICON Num_ adds the tag **+Num**. With more content we move this to affixes.
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON ARABICCASES**  adds +Arab
-
- * **LEXICON ARABICCASE**  adds +Arab
-
- * **LEXICON ARABICCASE0**  adds +Arab
-
-
- * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
-
- * **LEXICON DIGITCASE0**
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/numerals.lexc)</small>Verbs
-Verbs in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/verbs.lexc)</small>Nouns
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>Nouns
 Nouns in BASHKIR language.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjectives
-Adjectives in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adjectives.lexc)</small>Adverbs 
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/nouns.lexc)</small>Adverbs 
 Adverbs in BASHKIR language.
 
 
@@ -779,13 +680,7 @@ Conjunctors in BASHKIR language.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/conjunctors.lexc)</small>Pronouns
-Pronouns in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/pronouns.lexc)</small># Numerals
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/conjunctors.lexc)</small># Numerals
 This file docmuents the treatment of Numerals in BASHKIR.
 The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fst/stems/numerals.lexc)
 
@@ -800,25 +695,25 @@ The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fs
 etc.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/numerals.lexc)</small>Verbs
-Verbs in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/verbs.lexc)</small>Nouns
-Nouns in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/numerals.lexc)</small>Adjectives
 Adjectives in BASHKIR language.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
+Pronouns in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
+Verbs in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/verbs.lexc)</small>
 # Bashkir morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Bashkir LANGUAGE.
 
@@ -901,6 +796,111 @@ word classes, or optionally from prefixes:
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/symbols.lexc)</small>Nouns
+Nouns in BASHKIR language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverbs
+Adverbs in BASHKIR language.
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adverbs.lexc)</small>
+
+# Bashkir number affixes
+
+
+
+ LEXICON Num_ adds the tag **+Num**. With more content we move this to affixes.
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON ARABICCASES**  adds +Arab
+
+ * **LEXICON ARABICCASE**  adds +Arab
+
+ * **LEXICON ARABICCASE0**  adds +Arab
+
+
+ * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
+
+ * **LEXICON DIGITCASE0**
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/numerals.lexc)</small>Adjectives
+Adjectives in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+Pronoun affixes
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/pronouns.lexc)</small>Verbs
+Verbs in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/verbs.lexc)</small>
 
 
 We describe here how abbreviations are in Bashkir are read out, e.g.
