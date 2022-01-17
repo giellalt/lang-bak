@@ -606,119 +606,12 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bak/blob/main/../src/cg3/functions.cg3)</small>=================================== !
-# The Bashkir morphophonological/twolc rules file 
-=================================== !
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bak/blob/main/src/fst/phonology.twolc) 
-
-## Alphabets and sets
-
- * **а б в г ғ д ҙ е ё ж з и й к ҡ л м н ң о ө п р с ҫ т у ү ф х һ ц ч ш щ ъ ы ь э ә ю я** 
- * **А Б В Г Ғ Д Ҙ Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Ҫ Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ә Ю Я** 
- * **%>:0 ;** 
-
-
- * **Vow = а е ё и о ө у ү ы э ә ю я** 
-  **А Е Ё И О Ө У Ү Ы Э Ә Ю Я ;** 
- * **Cns = б в г ғ д ҙ ж з й к ҡ л м н ң п р с ҫ т ф х һ ц ч ш щ** 
-  **Б В Г Ғ Д Ҙ Ж З Й К Ҡ Л М Н Ң П Р С Ҫ Т Ф Х Һ Ц Ч Ш Щ ;** 
- * **Ltrs = Vow Cns ъ ь Ъ Ь ;** 
- * **all = Ltrs %- ;** 
-
-
-## Rules 
-
-
-Rule: **Переход к:г, если аффикс начинается на гласную и перед к тоже гласная**
-
-
-*нитәк%>ерәк examples:*
-
-*нитәг0ерәк examples:*
-
-Переход конечной согласной "к" в "г" при присоединении аффикса, начинающегося на гласную (итек: итеге, итегең, итектәр, итектә ...). Если предыдущий звук согласный, то изменений нет (бөрк, бөркә, бөркәм, бәркән). !
-
-Rule: **Переход ҡ:ғ, если аффикс начинается на гласную и перед к тоже гласная**
-
-Переход конечной согласной "ҡ" в "ғ" при присоединении аффикса, начинающегося на гласную (таяҡ: таяғы, таяғың, таяҡтар, таяҡтың ...). Если предыдущий звук согласный, то изменений нет (ҡырҡ, ҡырҡы, ҡырҡам, ҡырҡа). !
-
-Rule: **Переход п:б, если аффикс начинается на гласную и перед к тоже гласная**
-
-Переход конечной согласной "п" в "б" при присоединении аффикса, начинающегося на гласную (китап: китабы, китабым, китаптар, китаптың ...). !
-
-Rule: **Переход Согласен**
-
-
-Rule: **Переход Гласен 1**
-
-Rule: **Переход Гласен 2**
-
-
-*грипп%>ым examples:*
-
-*гриб00ым examples:*
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>Nouns
-Nouns in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/nouns.lexc)</small>Adverbs 
-Adverbs in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adverbs.lexc)</small>Conjunctors
-Conjunctors in BASHKIR language.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/conjunctors.lexc)</small># Numerals
-This file docmuents the treatment of Numerals in BASHKIR.
-The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fst/stems/numerals.lexc)
-
-
- LEXICON Numerals directs to arabic_roman_digits.lexc, except numerallist, which points to Bashkir numerals
-
- LEXICON numerallist is the list of numerals.
- миллиондарса Num_ ; 
- * ундарса Num_ ; 
- * биллиард Num_ ; 
- * миллиард Num_ ; 
-etc.
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/numerals.lexc)</small>Adjectives
-Adjectives in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
-Pronouns in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
-Verbs in BASHKIR language.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bak/blob/main/../src/cg3/functions.cg3)</small>
 # Bashkir morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Bashkir LANGUAGE.
 
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Analysis symbols
 The morphological analyses of wordforms of Bashkir language are presented
@@ -740,7 +633,7 @@ Verb moods are:
 Verb personal forms are:
 Other verb forms are
 
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
 Special multiword units are analysed with:
@@ -767,29 +660,29 @@ And following triggers to control variation
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
 
 The word forms in Bashkir language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
@@ -827,61 +720,7 @@ Nouns in BASHKIR language.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverbs
-Adverbs in BASHKIR language.
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adverbs.lexc)</small>
-
-# Bashkir number affixes
-
-
-
- LEXICON Num_ adds the tag **+Num**. With more content we move this to affixes.
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON ARABICCASES**  adds +Arab
-
- * **LEXICON ARABICCASE**  adds +Arab
-
- * **LEXICON ARABICCASE0**  adds +Arab
-
-
- * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
-
- * **LEXICON DIGITCASE0**
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/numerals.lexc)</small>Adjectives
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjectives
 Adjectives in BASHKIR language.
 
 
@@ -901,6 +740,167 @@ Verbs in BASHKIR language.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+# Bashkir number affixes
+
+
+
+LEXICON Num_affixes. adds the tag **+Num**. With more content we move this to affixes.
+
+
+
+
+
+
+
+
+
+
+
+* **LEXICON ARABICCASES+Arab**  adds +Arab
+
+* **LEXICON ARABICCASE+Arab**  adds +Arab
+
+* **LEXICON ARABICCASE0+Arab**  adds +Arab
+
+
+* **LEXICON DIGITCASESoblique**  to distinguish between 0 and oblique
+
+* **LEXICON DIGITCASE0**@CODE@****
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/numerals.lexc)</small>Adverbs
+Adverbs in BASHKIR language.
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/affixes/adverbs.lexc)</small>=================================== !
+# The Bashkir morphophonological/twolc rules file 
+=================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bak/blob/main/src/fst/phonology.twolc) 
+
+## Alphabets and sets
+
+* **а б в г ғ д ҙ е ё ж з и й к ҡ л м н ң о ө п р с ҫ т у ү ф х һ ц ч ш щ ъ ы ь э ә ю я** 
+* **А Б В Г Ғ Д Ҙ Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Ҫ Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ә Ю Я** 
+* **%>:0 ;** 
+
+
+* **Vow = а е ё и о ө у ү ы э ә ю я** 
+ **А Е Ё И О Ө У Ү Ы Э Ә Ю Я ;** 
+* **Cns = б в г ғ д ҙ ж з й к ҡ л м н ң п р с ҫ т ф х һ ц ч ш щ** 
+ **Б В Г Ғ Д Ҙ Ж З Й К Ҡ Л М Н Ң П Р С Ҫ Т Ф Х Һ Ц Ч Ш Щ ;** 
+* **Ltrs = Vow Cns ъ ь Ъ Ь ;** 
+* **all = Ltrs %- ;** 
+
+
+## Rules 
+
+
+Rule: **Переход к:г, если аффикс начинается на гласную и перед к тоже гласная**
+
+
+*нитәк%>ерәк examples:*
+
+*нитәг0ерәк examples:*
+
+Переход конечной согласной "к" в "г" при присоединении аффикса, начинающегося на гласную (итек: итеге, итегең, итектәр, итектә ...). Если предыдущий звук согласный, то изменений нет (бөрк, бөркә, бөркәм, бәркән). !
+
+Rule: **Переход ҡ:ғ, если аффикс начинается на гласную и перед к тоже гласная**
+
+Переход конечной согласной "ҡ" в "ғ" при присоединении аффикса, начинающегося на гласную (таяҡ: таяғы, таяғың, таяҡтар, таяҡтың ...). Если предыдущий звук согласный, то изменений нет (ҡырҡ, ҡырҡы, ҡырҡам, ҡырҡа). !
+
+Rule: **Переход п:б, если аффикс начинается на гласную и перед к тоже гласная**
+
+Переход конечной согласной "п" в "б" при присоединении аффикса, начинающегося на гласную (китап: китабы, китабым, китаптар, китаптың ...). !
+
+Rule: **Переход Согласен**
+
+
+Rule: **Переход Гласен 1**
+
+Rule: **Переход Гласен 2**
+
+
+*грипп%>ым examples:*
+
+*гриб00ым examples:*
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>Conjunctors
+Conjunctors in BASHKIR language.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/conjunctors.lexc)</small>Nouns
+Nouns in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
+Pronouns in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
+Verbs in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/verbs.lexc)</small># Numerals
+This file docmuents the treatment of Numerals in BASHKIR.
+The original is [stems/numerals.lexc](http://github.com/giellalt/lang-bak/src/fst/stems/numerals.lexc)
+
+
+LEXICON Numeralsnumerals directs to arabic_roman_digits.lexc, except numerallist, which points to Bashkir numerals
+
+LEXICON numerallistnumerals. is the list of numerals.
+миллиондарса Num_ ; 
+* ундарса Num_ ; 
+* биллиард Num_ ; 
+* миллиард Num_ ; 
+etc.
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/numerals.lexc)</small>Adverbs 
+Adverbs in BASHKIR language.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/stems/adverbs.lexc)</small>
 
 
 We describe here how abbreviations are in Bashkir are read out, e.g.
