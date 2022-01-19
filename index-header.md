@@ -7,6 +7,8 @@
 
 This page documents the work on the **Bashkir language model**. 
 
+The language model contains 35000 stems and a rudimentary morphology.
+
 # Project documentation
 
 * (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)

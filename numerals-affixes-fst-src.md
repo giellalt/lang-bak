@@ -4,7 +4,7 @@
 
 
 
-LEXICON Num_affixes. adds the tag **+Num**. With more content we move this to affixes.
+LEXICON Num_ adds the tag **+Num**. With more content we move this to affixes.
 
 
 
@@ -16,16 +16,16 @@ LEXICON Num_affixes. adds the tag **+Num**. With more content we move this to af
 
 
 
-* **LEXICON ARABICCASES+Arab**  adds +Arab
+* **LEXICON ARABICCASES**  adds +Arab
 
-* **LEXICON ARABICCASE+Arab**  adds +Arab
+* **LEXICON ARABICCASE**  adds +Arab
 
-* **LEXICON ARABICCASE0+Arab**  adds +Arab
+* **LEXICON ARABICCASE0**  adds +Arab
 
 
-* **LEXICON DIGITCASESoblique**  to distinguish between 0 and oblique
+* **LEXICON DIGITCASES**  to distinguish between 0 and oblique
 
-* **LEXICON DIGITCASE0**@CODE@****
+* **LEXICON DIGITCASE0**
 
 
 
