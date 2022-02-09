@@ -10,7 +10,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-b
 * **А Б В Г Ғ Д Ҙ Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Ҫ Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ә Ю Я** 
 * **%>:0 ;** 
 
-
 * **Vow = а е ё и о ө у ү ы э ә ю я** 
  **А Е Ё И О Ө У Ү Ы Э Ә Ю Я ;** 
 * **Cns = б в г ғ д ҙ ж з й к ҡ л м н ң п р с ҫ т ф х һ ц ч ш щ** 
@@ -18,12 +17,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-b
 * **Ltrs = Vow Cns ъ ь Ъ Ь ;** 
 * **all = Ltrs %- ;** 
 
-
 ## Rules 
 
-
 Rule: **Переход к:г, если аффикс начинается на гласную и перед к тоже гласная**
-
 
 *нитәк%>ерәк examples:*
 
@@ -41,16 +37,17 @@ Rule: **Переход п:б, если аффикс начинается на г
 
 Rule: **Переход Согласен**
 
-
 Rule: **Переход Гласен 1**
 
 Rule: **Переход Гласен 2**
-
 
 *грипп%>ым examples:*
 
 *гриб00ым examples:*
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bak/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-bak/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
