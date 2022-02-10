@@ -1,7 +1,7 @@
 # Bashkir documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://raw.githubusercontent.com/giellalt/lang-bak/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
 [![Build status](https://github.com/giellalt/lang-bak/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bak/actions)
 
