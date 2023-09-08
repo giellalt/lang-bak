@@ -335,6 +335,9 @@ Question and Focus particles:
 
 Semantics are classified with
 
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
