@@ -1,6 +1,7 @@
 The Bashkir morphology and tools
 ==========================================
 
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-bak%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-bak/main/badge.svg)](https://github.com/giellalt/lang-bak/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/blob/main/LICENSE)
