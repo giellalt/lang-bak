@@ -48,6 +48,3 @@ Rule: **Переход Гласен 2**
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-bak/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-
