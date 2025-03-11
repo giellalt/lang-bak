@@ -281,7 +281,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-b
 
 * **а б в г ғ д ҙ е ё ж з и й к ҡ л м н ң о ө п р с ҫ т у ү ф х һ ц ч ш щ ъ ы ь э ә ю я** 
 * **А Б В Г Ғ Д Ҙ Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Ҫ Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ә Ю Я** 
-* **%>:0 ;** 
+* **%> ;** 
 
 * **Vow = а е ё и о ө у ү ы э ә ю я** 
  **А Е Ё И О Ө У Ү Ы Э Ә Ю Я ;** 
@@ -294,7 +294,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-b
 
 Rule: **Переход к:г, если аффикс начинается на гласную и перед к тоже гласная**
 
-* нитәк%>ерәк examples:*
+* нитәк>ерәк examples:*
 
 * нитәг0ерәк examples:*
 
@@ -314,9 +314,9 @@ Rule: **Переход Гласен 1**
 
 Rule: **Переход Гласен 2**
 
-* грипп%>ым examples:*
+* грипп>ым examples:*
 
-* гриб00ым examples:*
+* гриб0>ым examples:*
 
 * * *
 
