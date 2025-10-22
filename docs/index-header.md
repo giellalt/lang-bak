@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-bak?label=CI)](https://builds.giellalt.org/pipelines/lang-bak/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/bash1264)
 
 This page documents the work on the **Bashkir language model**. 
 
