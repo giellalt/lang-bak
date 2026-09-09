@@ -1,8 +1,9 @@
 The Bashkir morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-bak%2Fgenerated%2Fdocs-data%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-bak%2Fgenerated%2Fdocs-data%2Ffst-lemmacount.json)
+[![Maturity](https://github.com/giellalt/lang-bak/raw/generated/docs-data/fst-maturity.svg)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://github.com/giellalt/lang-bak/raw/generated/docs-data/fst-lemmacount.svg)
+[![Speller suggestion quality](https://github.com/giellalt/lang-bak/raw/generated/docs-data/speller-suggestions.svg)](https://giellalt.github.io/lang-bak/typosreport/)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-bak)](https://github.com/giellalt/lang-bak/blob/main/LICENSE)
 [![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-bak/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-bak/actions/workflows/docs.yml)
